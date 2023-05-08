@@ -1,0 +1,4 @@
+nisha exercise config permission: #machine name of the permission
+  title: Controller page permission  #title of the permission
+  description: description for controller page permission  #description for the particular permission
+#This file defines a permission

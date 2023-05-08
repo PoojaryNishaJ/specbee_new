@@ -1,0 +1,16 @@
+nisha_exercise.hello_world:  #The machine name
+  route_name: nisha_exercise.hello_world #The name of the route that menu tab is linked to.
+  title: 'controller'   #Title for the menu tab.
+  base_route: nisha_exercise.custom_form #The name of the base route with which the menu tab is associated with.
+
+nisha_exercise.custom_form:   #The machine name
+  route_name: nisha_exercise.custom_form #The name of the route that menu tab is linked to.
+  title: 'custom'    #Title for the menu tab.
+  base_route: nisha_exercise.custom_form  #The name of the base route with which the menu tab is associated with.
+
+config.custom:            #The machine name
+  route_name: config.custom  #The name of the route that menu tab is linked to.
+  title: 'config'      #Title for the menu tab.
+  base_route: nisha_exercise.custom_form  #The name of the base route with which the menu tab is associated with.
+
+#This file is used create menu tabs.

@@ -1,0 +1,7 @@
+nisha_exercise.page:     # machine name of the action button
+  route_name: "config.custom"  # name of the route that the action button links to
+  title: "Config form"     # title displayed
+  appears_on:              # Where should it has to appear.
+    - "nisha_exercise.custom_form"
+
+# This file is used to create an action button

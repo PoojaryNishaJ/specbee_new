@@ -1,0 +1,8 @@
+name: 'Nisha Exercise' #The name of the module.
+description: 'Nisha Exercise description' #The description of the module.
+type: module #This indicates that the file represents is a module.
+core_version_requirement: ^9 || ^10 #The required Drupal core version for this module is either 9.x or 10.x.
+version: 9.x-1.0 #The version of Drupal core 9.x or 10.x is allowed.
+
+#Only this file is required when we want to install a new module.
+#After that we can go to extend and install this module.

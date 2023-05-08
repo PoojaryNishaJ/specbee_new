@@ -1,0 +1,35 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+//nisha_exercise_form_alter():  used to alter form.
+//$form: The form array being altered.
+//$form_state: An object representing the current state of the form.
+//$form_id: The unique ID of the form.
+
+function nisha_exercise_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+    // $route = \Drupal::routeMatch()->getRouteName();
+    $data = \Drupal::service('nisha_exercise')->getName();  // returns the name of a configuration form
+    // print_r($route);
+    // exit;
+
+/**
+ * Implements hook_theme().
+ */
+//nisha_exercise_theme used to define new hook theme.
+function nisha_exercise_theme($existing, $type, $theme, $path) {
+
+    return [
+        'block_plugin_template' => [   //name of the template file.
+            'variables' => [
+                'message' => "",
+                'hexcode' => "",
+            ],
+       ],
+   ];
+
+}
+
+
+
+}

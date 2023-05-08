@@ -1,0 +1,7 @@
+nisha_exercise.admin:    #The machine name of the menu link.
+  title: 'Controller'     #Text displayed in the menu link.
+  description: 'Manage settings for My Module'  #discription for the menu link.
+  route_name: 'nisha_exercise.hello_world'   #The route name taht the menu link links to.
+  menu_name: admin   #The machine name of the menu where the menu link should appear.
+
+  #This file is used to create menu links.
