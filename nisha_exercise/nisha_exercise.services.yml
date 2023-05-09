@@ -1,4 +1,0 @@
-services:
-  custom_service:
-    class : Drupal\nisha_exercise\CustomService
-    arguments: ['@config.factory']

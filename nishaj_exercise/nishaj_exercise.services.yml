@@ -1,0 +1,5 @@
+services:
+  custom_service:  #name of the service.
+    class: Drupal\nishaj_exercise\CustomService  # class name in which it should get called
+    arguments: ['@config.factory']     # The arguments key is used to specify any arguments that the service's constructor requires.
+    #when we want to use same functionality in multiple places we use services.
